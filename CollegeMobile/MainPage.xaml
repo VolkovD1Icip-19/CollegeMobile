@@ -12,9 +12,7 @@
         <ScrollView>
             <StackLayout>
                 <Frame BackgroundColor="#FFFFFF" CornerRadius="20" HeightRequest="100" Margin="12.5,35,12.5,10">
-                    <StackLayout>
-                        
-                    </StackLayout>
+                    
                 </Frame>
             </StackLayout>
         </ScrollView>
