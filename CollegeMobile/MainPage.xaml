@@ -18,6 +18,9 @@
             <StackLayout   Margin="0,-11,0,0">
                 <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,35,12.5,10">
                     <StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="ICiP" Tapped="ICiP_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
                         <Image Source="ICiP.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
                         <Label FontSize="18" Margin="160,-100,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Информационные системы и программирование" TextColor="#000" FontAttributes="Bold"></Label>
                     </StackLayout>
@@ -46,6 +49,32 @@
                         <Label FontSize="18" Margin="170,-90,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Сварочное  производство" TextColor="#000" FontAttributes="Bold"></Label>
                     </StackLayout>
                 </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <Image Source="ZIO.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="18" Margin="170,-100,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Земельно- имущественные отношения" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <Image Source="PRAVO.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="18" Margin="170,-100,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Право и организация социального обеспечения" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <Image Source="EKO.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="18" Margin="170,-90,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Экономика и бухгалтерский учет" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <Image Source="Tokar.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="18" Margin="170,-110,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Токарь на станках с числовым программным управлением" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Label HeightRequest="20"></Label>
             </StackLayout>
         </ScrollView>
     </Grid>

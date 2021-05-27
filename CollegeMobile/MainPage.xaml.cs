@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
+
 namespace CollegeMobile
 {
     public partial class MainPage : ContentPage
@@ -13,6 +14,11 @@ namespace CollegeMobile
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void ICiP_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Page());
         }
     }
 }
