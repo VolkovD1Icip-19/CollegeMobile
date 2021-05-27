@@ -26,7 +26,11 @@
             </StackLayout>
             <ScrollView Grid.Row="1">
                 <StackLayout   Margin="0,-11,0,0">
-                    
+                    <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,35,12.5,10">
+                        <StackLayout>
+                            <Label FontSize="18" Margin="160,-100,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Уровень образования: среднее профессиональное" TextColor="#000" FontAttributes="Bold"></Label>
+                        </StackLayout>
+                    </Frame>
                 </StackLayout>
             </ScrollView>
             <StackLayout Grid.Row="2" BackgroundColor="White">
