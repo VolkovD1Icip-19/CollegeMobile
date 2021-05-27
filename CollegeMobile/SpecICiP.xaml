@@ -26,9 +26,9 @@
             </StackLayout>
             <ScrollView Grid.Row="1">
                 <StackLayout   Margin="0,-11,0,0">
-                    <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,35,12.5,10">
+                    <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="60" WidthRequest="230" Margin="12.5,35,12.5,10">
                         <StackLayout>
-                            <Label FontSize="18" Margin="160,-100,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Уровень образования: среднее профессиональное" TextColor="#000" FontAttributes="Bold"></Label>
+                            <Label FontSize="18" Margin="50,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Уровень образования: среднее профессиональное" TextColor="#000" FontAttributes="Bold" WidthRequest="250"></Label>
                         </StackLayout>
                     </Frame>
                 </StackLayout>
