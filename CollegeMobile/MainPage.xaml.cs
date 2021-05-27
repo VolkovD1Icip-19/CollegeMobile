@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 
 
+
 namespace CollegeMobile
 {
     public partial class MainPage : ContentPage
@@ -18,7 +19,7 @@ namespace CollegeMobile
 
         private void ICiP_Tapped(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Page());
+            Navigation.PushAsync(new SpecICiP());
         }
     }
 }

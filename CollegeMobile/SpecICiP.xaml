@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollegeMobile.SpecICiP" BackgroundImageSource="Fon.png"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0" BackgroundColor="White">
+                <Frame BackgroundColor="#FFFFFF" CornerRadius="20" Margin="12.5,28,12.5,10" HeightRequest="100" BorderColor="Black" Padding="5">
+                    <StackLayout>
+                        <Image Source="ICiP.png"  WidthRequest="140" HeightRequest="110" Margin="-268,-5,0,-5" ></Image>
+                        <Label FontSize="20" Margin="120,-95,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Информационные системы и программирование" TextColor="#000" FontAttributes="Bold"></Label>
+                        <StackLayout Margin="330,-62,0,-5">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="BackSpec" Tapped="BackSpec_Tapped"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="Arrow.png"  WidthRequest="45" HeightRequest="45" ></Image>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            <ScrollView Grid.Row="1">
+                <StackLayout   Margin="0,-11,0,0">
+                    
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Grid.Row="2" BackgroundColor="White">
+                <Image Source="Group1.png" HeightRequest="40" HorizontalOptions="Start" Margin="29,5,0,0"></Image>
+                <Image Source="Group2.png" HeightRequest="40" HorizontalOptions="Start" Margin="109,-46,0,0"></Image>
+                <Image Source="Group3.png" HeightRequest="40" HorizontalOptions="Start" Margin="189,-46,0,0"></Image>
+                <Image Source="Group4.png" HeightRequest="40" HorizontalOptions="Start" Margin="269,-46,0,0"></Image>
+                <Image Source="Group5.png" HeightRequest="40" HorizontalOptions="Start" Margin="349,-46,0,0"></Image>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
