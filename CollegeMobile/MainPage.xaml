@@ -14,15 +14,40 @@
                 <Label Text="Специальности" HorizontalOptions="Center" HorizontalTextAlignment="Center" HeightRequest="28" TextColor="#000000" FontSize="24"></Label>
             </Frame>
         </StackLayout>
-        <StackLayout  Grid.Row="1">
-            <ScrollView>
-                <StackLayout>
-                    <Frame BackgroundColor="#FFFFFF" CornerRadius="20" HeightRequest="100" Margin="12.5,35,12.5,10">
-                        <Image Source="Fon.png"></Image>
-                    </Frame>
-                </StackLayout>
-            </ScrollView>
-        </StackLayout>
+        <ScrollView Grid.Row="1">
+            <StackLayout   Margin="0,-11,0,0">
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,35,12.5,10">
+                    <StackLayout>
+                        <Image Source="ICiP.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="18" Margin="160,-100,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Информационные системы и программирование" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <Image Source="ST.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="18" Margin="160,-100,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Строительство и эксплуатация зданий и сооружений" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <Image Source="AT.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="18" Margin="160,-100,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Мастер по ремонту и обслуживанию автомобилей" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <Image Source="Kamen.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="18" Margin="220,-80,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Каменщик" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <Image Source="Svarka.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="18" Margin="170,-90,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Сварочное  производство" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
     </Grid>
     
     
