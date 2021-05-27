@@ -4,7 +4,7 @@
              x:Class="CollegeMobile.MainPage"
              Title="123"
              BackgroundImageSource="image1.png"
-             NavigationPage.HasNavigationBar="True">
+             NavigationPage.HasNavigationBar="false">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -12,56 +12,73 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="50" ></RowDefinition>
         </Grid.RowDefinitions>
-        <StackLayout Grid.Row="0" BackgroundColor="white" Margin="0,0,0,0">
-            <Frame Margin="20, 20,20,6" BorderColor="Black" Padding="8" CornerRadius="20">
-                <Label Text="Новости" TextColor="black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24"></Label>
+        <StackLayout Grid.Row="0" BackgroundColor="white">
+            <Frame Margin="20, 10,20,0" BackgroundColor="black" Padding="8" CornerRadius="20">
+                <Frame Margin="-5" Padding="8" CornerRadius="17">
+                    <Label Text="Новости" TextColor="black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24"></Label>
+                </Frame>
             </Frame>
         </StackLayout>
 
+        
+        
         <ScrollView Grid.Row="1" Margin="0,-6,0,-6">
             <StackLayout>
-                <Frame CornerRadius="25" BorderColor="#EDEDED" WidthRequest="314" HeightRequest="179" Margin="30, 5, 30, 15">
-                    <StackLayout>
-                        <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Появилась новая профессия “Токарь”</Label>
-                        <Image Source="image2.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
-                        <Label FontSize="14" Margin="125,-110,0,25">Студенты смогу изучить искуство токарного мастерства прямо в нашем колледже с 01.09.2022.</Label>
-                        <Label HorizontalOptions="End" FontSize="18">19.05.2021</Label>
-                    </StackLayout>
+                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" HeightRequest="179" Margin="30, 5, 30, 15">
+                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314" HeightRequest="179" Margin="-15, -15, -15, -15">
+                        <StackLayout Margin="-10">
+                            <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Появилась новая профессия “Токарь”</Label>
+                            <Image Source="image2.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
+                            <Label FontSize="14" Margin="125,-110,0,0">Студенты смогу изучить искуство токарного мастерства прямо в нашем колледже с 01.09.2022.</Label>
+                            <Label HorizontalOptions="End" VerticalOptions="EndAndExpand" FontSize="18">19.05.2021</Label>
+                        </StackLayout>
+                    </Frame>
                 </Frame>
-                <Frame CornerRadius="25" BorderColor="#EDEDED" WidthRequest="314" HeightRequest="179" Margin="30, 0, 30, 15">
-                    <StackLayout>
-                        <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Добавление преподавателей в ИСИП</Label>
-                        <Image Source="image3.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
-                        <Label FontSize="14" Margin="125,-120,0,-14">Студенты нашего колледжа скоро встретят нового преподавателя, который будет обучать искусствам оформления дизайна и прототипирования интерфейсов.</Label>
-                        <Label HorizontalOptions="End" FontSize="18">17.05.2021</Label>
-                    </StackLayout>
+                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" HeightRequest="200" Margin="30, 5, 30, 15">
+                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314" HeightRequest="179" Margin="-15, -15, -15, -15">
+                        <StackLayout Margin="-10">
+                            <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Добавление преподавателей в ИСИП</Label>
+                            <Image Source="image3.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
+                            <Label FontSize="14" Margin="125,-120,0,0">Студенты нашего колледжа скоро встретят нового преподавателя, который будет обучать искусствам оформления дизайна и прототипирования интерфейсов.</Label>
+                            <Label HorizontalOptions="End" VerticalOptions="EndAndExpand" FontSize="18">17.05.2021</Label>
+                        </StackLayout>
+                    </Frame>
                 </Frame>
-                <Frame CornerRadius="25" BorderColor="#EDEDED" WidthRequest="314" HeightRequest="179" Margin="30, 0, 30, 15">
-                    <StackLayout>
-                        <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Подготовка к новому областному чемпионату</Label>
-                        <Image Source="image4.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
-                        <Label FontSize="14" Margin="125,-110,0,9">Студенты группы 2 ИСИП-18 будут готовиться к професиональному чемпионату с ожиданием на первое место в области.</Label>
-                        <Label HorizontalOptions="End" FontSize="18">12.05.2021</Label>
-                    </StackLayout>
+                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" HeightRequest="179" Margin="30, 5, 30, 15">
+                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314" HeightRequest="179" Margin="-15, -15, -15, -15">
+                        <StackLayout Margin="-10">
+                            <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Подготовка к новому областному чемпионату</Label>
+                            <Image Source="image4.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
+                            <Label FontSize="14" Margin="125,-110,0,0">Студенты группы 2 ИСИП-18 будут готовиться к професиональному чемпионату с ожиданием на первое место в области.</Label>
+                            <Label HorizontalOptions="End" VerticalOptions="EndAndExpand" FontSize="18">12.05.2021</Label>
+                        </StackLayout>
+                    </Frame>
                 </Frame>
-                <Frame CornerRadius="25" BorderColor="#EDEDED" WidthRequest="314" HeightRequest="179" Margin="30, 0, 30, 15">
-                    <StackLayout>
-                        <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Закуп нового учебного оборудования</Label>
-                        <Image Source="image5.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
-                        <Label FontSize="14" Margin="125,-110,0,10">Студенты с нового учебного года будут работать на новых современных компьютерах. На закуп было потрачено 3 млн. руб.</Label>
-                        <Label HorizontalOptions="End" FontSize="18">02.05.2021</Label>
-                    </StackLayout>
+                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" HeightRequest="179" Margin="30, 5, 30, 15">
+                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314" HeightRequest="179" Margin="-15, -15, -15, -15">
+                        <StackLayout Margin="-10">
+                            <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Закуп нового учебного оборудования</Label>
+                            <Image Source="image5.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
+                            <Label FontSize="14" Margin="125,-110,0,0">Студенты с нового учебного года будут работать на новых современных компьютерах. На закуп было потрачено 3 млн. руб.</Label>
+                            <Label HorizontalOptions="End" VerticalOptions="EndAndExpand" FontSize="18">02.05.2021</Label>
+                        </StackLayout>
+                    </Frame>
                 </Frame>
-                <Frame CornerRadius="25" BorderColor="#EDEDED" WidthRequest="314" HeightRequest="150" Margin="30, 0, 30, 5">
-                    <StackLayout>
-                        <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Организация конкурса</Label>
-                        <Image Source="image6.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
-                        <Label FontSize="14" Margin="125,-110,0,6">Группа преподавателей устроили для студентов конкурс на тему “Знание комплектующих ПК”. Группа 1ИСИП-20 победила!</Label>
-                        <Label HorizontalOptions="End" FontSize="18">23.04.2021</Label>
-                    </StackLayout>
+                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" HeightRequest="154" Margin="30, 5, 30, 15">
+                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314" HeightRequest="179" Margin="-15, -15, -15, -15">
+                        <StackLayout Margin="-10">
+                            <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Организация конкурса</Label>
+                            <Image Source="image6.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
+                            <Label FontSize="14" Margin="125,-110,0,0">Группа преподавателей устроили для студентов конкурс на тему “Знание комплектующих ПК”. Группа 1ИСИП-20 победила!</Label>
+                            <Label HorizontalOptions="End" VerticalOptions="EndAndExpand" FontSize="18">23.04.2021</Label>
+                        </StackLayout>
+                    </Frame>
                 </Frame>
             </StackLayout>
         </ScrollView>
+        
+        
+        
         <StackLayout Grid.Row="2" BackgroundColor="white">
             <Image Margin="29,5,0,0" Source="Group1.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
             <Image Margin="109,-46,0,0" Source="Group2.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
