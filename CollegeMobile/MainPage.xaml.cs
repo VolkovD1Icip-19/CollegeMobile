@@ -14,5 +14,10 @@ namespace CollegeMobile
         {
             InitializeComponent();
         }
+
+        private void Plast_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Plast());
+        }
     }
 }

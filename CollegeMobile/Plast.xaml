@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollegeMobile.MainPage"
+             Title="Филиал1"
+             NavigationPage.HasNavigationBar="True"
+             BackgroundImageSource="fon.png">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="White" Margin="0" Grid.Row="0">
+            <Frame Margin="20,20,20,6" CornerRadius="35" Padding="8">
+                <Label Text="Пластовский технологический филиал" FontSize="24" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+            </Frame>
+        </StackLayout>
+        <ScrollView Grid.Row="1" Margin="0,-6,0,-6">
+            <StackLayout>
+            </StackLayout>
+        </ScrollView>
+        <StackLayout Grid.Row="2" BackgroundColor="white">
+            <Image Margin="29,5,0,0" Source="Group1.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            <Image Margin="109,-46,0,0" Source="Group2.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            <Image Margin="189,-46,0,0" Source="Group3.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            <Image Margin="269,-46,0,0" Source="Group4.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            <Image Margin="349,-46,0,0" Source="Group5.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+        </StackLayout>
+    </Grid>
+</ContentPage>

@@ -1,24 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CollegeMobile.MainPage">
+             x:Class="CollegeMobile.MainPage"
+             Title="Филиалы"
+             NavigationPage.HasNavigationBar="True"
+             BackgroundImageSource="fon.png">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more a "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
-
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="White" Margin="0" Grid.Row="0">
+            <Frame Margin="20,20,20,6" CornerRadius="35" Padding="8">
+                <Label Text="Филиалы" FontSize="24" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+            </Frame>
+        </StackLayout>
+        <ScrollView Grid.Row="1" Margin="0,-6,0,-6">
+            <StackLayout>
+                <Frame CornerRadius="22" HeightRequest="160" Margin="20,20,20,0">
+                    <StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Plast" Tapped="Plast_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                        <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Margin="130,0,0,0">Пластовский технологический филиал</Label>
+                        <Image Source="f1.png" WidthRequest="120" HeightRequest="90" Margin="-220,-90,20,20"></Image>
+                        <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="0,0,80,0">Адрес: г.Пласт, ул.Володарского, 2</Label>
+                        <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="0,0,4,0">Телефон: +7 (35160) 2-04-67</Label>
+                    </StackLayout>
+                </Frame>
+                <Frame CornerRadius="22" HeightRequest="160" Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Margin="130,0,0,4">Профессиональное училище №11</Label>
+                        <Image Source="f2.png" WidthRequest="120" HeightRequest="90" Margin="-220,-70,20,20"></Image>
+                        <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="0,0,80,0">Адрес: Копейск, проспект Ильича, 14</Label>
+                        <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="0,0,4,0">Телефон: +7 (35139) 3-659-10</Label>
+                    </StackLayout>
+                </Frame>
+                <Frame CornerRadius="22" HeightRequest="160" Margin="20,20,20,0">
+                    <StackLayout>
+                        <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Margin="130,-10,0,-10">ГБОУ Копейский политехнический колледж имени С.В.Хохрякова</Label>
+                        <Image Source="f3.png" WidthRequest="120" HeightRequest="90" Margin="-220,-97,20,20"></Image>
+                        <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="0,0,80,0">Адрес: г.Копейск, улица Ленина, 40</Label>
+                        <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="0,0,4,0">Телефон: +7 (35139) 3-63-26</Label>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+        <StackLayout Grid.Row="2" BackgroundColor="white">
+            <Image Margin="29,5,0,0" Source="Group1.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            <Image Margin="109,-46,0,0" Source="Group2.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            <Image Margin="189,-46,0,0" Source="Group3.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            <Image Margin="269,-46,0,0" Source="Group4.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            <Image Margin="349,-46,0,0" Source="Group5.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+        </StackLayout>
+    </Grid>
 </ContentPage>
