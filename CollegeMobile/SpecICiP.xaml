@@ -24,13 +24,66 @@
                     </StackLayout>
                 </Frame>
             </StackLayout>
-            <ScrollView Grid.Row="1">
-                <StackLayout   Margin="0,-11,0,0">
-                    <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="60" WidthRequest="230" Margin="12.5,35,12.5,10">
-                        <StackLayout>
-                            <Label FontSize="18" Margin="50,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Уровень образования: среднее профессиональное" TextColor="#000" FontAttributes="Bold" WidthRequest="250"></Label>
-                        </StackLayout>
+            <ScrollView Grid.Row="1" Margin="0,-6,0,-6">
+                <StackLayout   Margin="0,-11,0,0" WidthRequest="130">
+                    <Frame HeightRequest="50" WidthRequest="130" Margin="12.5,30,100,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
+                            <Label FontAttributes="Bold" FontSize="16" Margin="25,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Уровень образования: среднее профессиональное" TextColor="#000"  WidthRequest="230"></Label>
+                        </Frame>
                     </Frame>
+                    <Frame HeightRequest="60" WidthRequest="130" Margin="100,11,12.5,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="75" WidthRequest="130" Margin="-4,-4,-4,-4" >
+                            <StackLayout>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Квалификация: "  TextColor="#000" WidthRequest="250"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="0,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="разработчик веб и мультимедийный приложений" TextColor="#000" WidthRequest="300"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </Frame>
+                    <Frame HeightRequest="40" WidthRequest="130" Margin="12.5,11,100,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="45" WidthRequest="130" Margin="-4,-4,-4,-4" >
+                            <StackLayout>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="70,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Форма обучения: очная"  TextColor="#000" WidthRequest="150"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </Frame>
+                    <Frame HeightRequest="62" WidthRequest="130" Margin="100,11,12.5,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="75" WidthRequest="130" Margin="-4,-4,-4,-4" >
+                            <StackLayout>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Срок обучения: "  TextColor="#000" WidthRequest="250"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="0,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="на базе основного общего образования 3 года 10 месяцев." TextColor="#000" WidthRequest="300"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </Frame>
+                    <Frame HeightRequest="200" WidthRequest="130" Margin="12.5,11,100,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="45" WidthRequest="130" Margin="-4,-4,-4,-4" >
+                            <StackLayout>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Виды профессиональной деятельности: "  TextColor="#000" WidthRequest="250"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• интернет-разработчик, 
+                                 • мультимедийный программист,
+                                 • программист-мультипликатор,
+                                 • программист-разработчик" TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="компьютерных игр," TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• разработчик архитекторы" TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" веб-сайтов,"   TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• разработчик веб-сайтов."  TextColor="#000" WidthRequest="300"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </Frame>
+                    <Frame HeightRequest="122" WidthRequest="130" Margin="100,11,12.5,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="75" WidthRequest="130" Margin="-4,-4,-4,-4" >
+                            <StackLayout>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,15,0,5" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Обучение на основании договора об оказании платных образовательных услуг.        Стоимость обучения в год 39000 (тридцать девять тысяч) рублей."  TextColor="#000" WidthRequest="280"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </Frame>
+                    <Frame HeightRequest="60" WidthRequest="130" Margin="12.5,11,100,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="45" WidthRequest="130" Margin="-4,-4,-4,-4" >
+                            <StackLayout>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="18,13,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Запись на поток осуществляется до 28 августа текущего года."  TextColor="#000" WidthRequest="260"></Label>
+                            </StackLayout>
+                        </Frame>
+                    </Frame>
+                    <Label HeightRequest="20"></Label>
                 </StackLayout>
             </ScrollView>
             <StackLayout Grid.Row="2" BackgroundColor="White">
