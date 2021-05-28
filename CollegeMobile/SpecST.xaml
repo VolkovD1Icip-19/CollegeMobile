@@ -100,10 +100,30 @@
                     </StackLayout.GestureRecognizers>
                     <Image Source="Group1.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
                 </StackLayout>
-                <Image Source="Group2.png" HeightRequest="40" HorizontalOptions="Start" Margin="109,-46,0,0"></Image>
-                <Image Source="Group3.png" HeightRequest="40" HorizontalOptions="Start" Margin="189,-46,0,0"></Image>
-                <Image Source="Group4.png" HeightRequest="40" HorizontalOptions="Start" Margin="269,-46,0,0"></Image>
-                <Image Source="Group5.png" HeightRequest="40" HorizontalOptions="Start" Margin="349,-46,0,0"></Image>
+                <StackLayout Margin="100,-46,260,0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Search"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group2.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
+                </StackLayout>
+                <StackLayout Margin="180,-46,193,0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Home"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group3.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
+                </StackLayout>
+                <StackLayout Margin="260,-46,111,0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Filial"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group4.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
+                </StackLayout>
+                <StackLayout Margin="340,-46,31,0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Help"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group5.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
+                </StackLayout>
             </StackLayout>
         </Grid>
     </ContentPage.Content>

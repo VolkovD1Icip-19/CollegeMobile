@@ -17,6 +17,11 @@ namespace CollegeMobile
             InitializeComponent();
         }
 
+        private void BackSpec_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
+        }
+
         private void ICiP_Tapped(object sender, EventArgs e)
         {
             Navigation.PushAsync(new SpecICiP());
@@ -30,6 +35,11 @@ namespace CollegeMobile
         private void AT_Tapped(object sender, EventArgs e)
         {
             Navigation.PushAsync(new SpecAT());
+        }
+
+        private void Kamen_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SpecKamen());
         }
     }
 }
