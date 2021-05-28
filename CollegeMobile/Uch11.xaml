@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CollegeMobile.Plast"
-              Title="Филиал №1"
+             x:Class="CollegeMobile.Uch11"
+             Title="Филиал №2"
              NavigationPage.HasNavigationBar="True"
              BackgroundImageSource="fon.png">
-
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="75"></RowDefinition>
@@ -14,23 +14,23 @@
         </Grid.RowDefinitions>
         <StackLayout BackgroundColor="White" Margin="0" Grid.Row="0">
             <Frame Margin="20,20,20,6" CornerRadius="30" Padding="8">
-                <Label Text="Пластовский технологический филиал" FontSize="17" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                <Label Text="Профессиональное училище №11" FontSize="18" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"></Label>
             </Frame>
         </StackLayout>
         <ScrollView Grid.Row="1" Margin="0,-6,0,-6">
             <StackLayout>
-                <Image Source="fel1.png" WidthRequest="200" HeightRequest="160" Margin="20,8,20,-0"></Image>
-                <Frame CornerRadius="20" HeightRequest="16" WidthRequest="3" Margin="20,-4,220,0">
+                <Image Source="fel2.png" WidthRequest="325" HeightRequest="230" Margin="0,19,-4,10"></Image>
+                <Frame CornerRadius="20" HeightRequest="16" WidthRequest="3" Margin="10,5,215,0">
                     <StackLayout>
-                        <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="-4,-10,-60,0">Адрес: г.Пласт, ул.Володарского, 2</Label>
+                        <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="-10,-10,-40,0">Адрес: Копейск, проспект Ильича, 14</Label>
                     </StackLayout>
                 </Frame>
-                <Frame CornerRadius="20" HeightRequest="7" WidthRequest="15" Margin="175,10,10,0">
+                <Frame CornerRadius="20" HeightRequest="7" WidthRequest="15" Margin="170,10,6,0">
                     <StackLayout>
-                        <Label HorizontalOptions="End" VerticalOptions="EndAndExpand" Margin="-5,-5,6,0">Телефон: +7 (35160) 2-04-67</Label>
+                        <Label HorizontalOptions="End" VerticalOptions="EndAndExpand" Margin="-5,-5,9,0">Телефон: +7 (35139) 3-659-10</Label>
                     </StackLayout>
                 </Frame>
-                <Image Source="kar1.png" WidthRequest="200" HeightRequest="350" Margin="-2,12,-4,10"></Image>
+                <Image Source="kar2.png" WidthRequest="100" HeightRequest="300" Margin="0,2,-4,10"></Image>
             </StackLayout>
         </ScrollView>
         <StackLayout Grid.Row="2" BackgroundColor="white">

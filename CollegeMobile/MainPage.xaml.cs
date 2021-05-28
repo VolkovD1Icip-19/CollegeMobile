@@ -19,5 +19,15 @@ namespace CollegeMobile
         {
             Navigation.PushAsync(new Plast());
         }
+
+        private void Uch11_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Uch11());
+        }
+
+        private void Gor_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Gor());
+        }
     }
 }
