@@ -39,6 +39,9 @@
                 </Frame>
                 <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
                     <StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="AT" Tapped="AT_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
                         <Image Source="AT.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
                         <Label FontSize="20" Margin="160,-103,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Мастер по ремонту и обслуживанию автомобилей" TextColor="#000" FontAttributes="Bold"></Label>
                     </StackLayout>

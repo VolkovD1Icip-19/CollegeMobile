@@ -26,5 +26,10 @@ namespace CollegeMobile
         {
             Navigation.PushAsync(new SpecST());
         }
+
+        private void AT_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SpecAT());
+        }
     }
 }

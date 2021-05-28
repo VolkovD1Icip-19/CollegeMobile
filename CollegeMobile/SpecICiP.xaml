@@ -14,8 +14,8 @@
                 <Frame BackgroundColor="#FFFFFF" CornerRadius="20" Margin="12.5,28,12.5,10" HeightRequest="100" BorderColor="Black" Padding="5">
                     <StackLayout>
                         <Image Source="ICiP.png"  WidthRequest="140" HeightRequest="110" Margin="-268,-5,0,-5" ></Image>
-                        <Label FontSize="20" Margin="120,-95,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Информационные системы и программирование" TextColor="#000" FontAttributes="Bold"></Label>
-                        <StackLayout Margin="330,-62,0,-5">
+                        <Label FontSize="20"  Margin="120,-95,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Информационные системы и программирование" TextColor="#000" FontAttributes="Bold"></Label>
+                        <StackLayout Margin="330,-65,0,-5" VerticalOptions="Center">
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="BackSpec" Tapped="BackSpec_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
