@@ -17,7 +17,7 @@
                 </Frame>
             </Frame>
         </StackLayout>
-        <ScrollView Grid.Row="1" Margin="0,-6,0,-6">
+        <ScrollView Grid.Row="1" Margin="0,-6,0,-60">
             <StackLayout   Margin="0,-11,0,0">
                 <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,35,12.5,10">
                     <StackLayout>
@@ -30,6 +30,9 @@
                 </Frame>
                 <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
                     <StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="ST" Tapped="ST_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
                         <Image Source="ST.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
                         <Label FontSize="20" Margin="160,-103,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Строительство и эксплуатация зданий и сооружений" TextColor="#000" FontAttributes="Bold"></Label>
                     </StackLayout>
@@ -70,17 +73,16 @@
                         <Label FontSize="20" Margin="170,-94,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Экономика и бухгалтерский учет" TextColor="#000" FontAttributes="Bold"></Label>
                     </StackLayout>
                 </Frame>
-                
                 <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
                     <StackLayout>
                         <Image Source="Tokar.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
                         <Label FontSize="20" Margin="170,-114,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Токарь на станках с числовым программным управлением" TextColor="#000" FontAttributes="Bold"></Label>
                     </StackLayout>
                 </Frame>
-                <Label HeightRequest="20"></Label>
+                <Label HeightRequest="50"></Label>
             </StackLayout>
         </ScrollView>
-        <StackLayout Grid.Row="2" BackgroundColor="White">
+        <StackLayout Grid.Row="2" BackgroundColor="White" Opacity="0.9">
             <Image Source="Group1.png" HeightRequest="40" HorizontalOptions="Start" Margin="29,5,0,0"></Image>
             <Image Source="Group2.png" HeightRequest="40" HorizontalOptions="Start" Margin="109,-46,0,0"></Image>
             <Image Source="Group3.png" HeightRequest="40" HorizontalOptions="Start" Margin="189,-46,0,0"></Image>

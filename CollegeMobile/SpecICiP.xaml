@@ -24,7 +24,7 @@
                     </StackLayout>
                 </Frame>
             </StackLayout>
-            <ScrollView Grid.Row="1" Margin="0,-6,0,-6">
+            <ScrollView Grid.Row="1" Margin="0,-6,0,-60">
                 <StackLayout   Margin="0,-11,0,0" WidthRequest="130">
                     <Frame HeightRequest="50" WidthRequest="130" Margin="12.5,30,100,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
                         <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
@@ -83,10 +83,10 @@
                             </StackLayout>
                         </Frame>
                     </Frame>
-                    <Label HeightRequest="20"></Label>
+                    <Label HeightRequest="70"></Label>
                 </StackLayout>
             </ScrollView>
-            <StackLayout Grid.Row="2" BackgroundColor="White">
+            <StackLayout Grid.Row="2" BackgroundColor="White" Opacity="0.9">
                 <Image Source="Group1.png" HeightRequest="40" HorizontalOptions="Start" Margin="29,5,0,0"></Image>
                 <Image Source="Group2.png" HeightRequest="40" HorizontalOptions="Start" Margin="109,-46,0,0"></Image>
                 <Image Source="Group3.png" HeightRequest="40" HorizontalOptions="Start" Margin="189,-46,0,0"></Image>
