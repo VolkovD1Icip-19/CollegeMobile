@@ -86,6 +86,7 @@
             </StackLayout>
         </ScrollView>
         <StackLayout Grid.Row="2" BackgroundColor="White" Opacity="0.9">
+            
             <Image Source="Group1.png" HeightRequest="40" HorizontalOptions="Start" Margin="29,5,0,0"></Image>
             <Image Source="Group2.png" HeightRequest="40" HorizontalOptions="Start" Margin="109,-46,0,0"></Image>
             <Image Source="Group3.png" HeightRequest="40" HorizontalOptions="Start" Margin="189,-46,0,0"></Image>
