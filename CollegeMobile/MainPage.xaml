@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CollegeMobile.MainPage"
-             Title="123"
+             Title="Главная страничка"
              BackgroundImageSource="image1.png"
              NavigationPage.HasNavigationBar="false">
 
@@ -22,7 +22,7 @@
 
         
         
-        <ScrollView Grid.Row="1" Margin="0,-6,0,-6">
+        <ScrollView Grid.Row="1" Margin="0,-6,0,-60">
             <StackLayout>
                 <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" HeightRequest="179" Margin="30, 5, 30, 15">
                     <Frame CornerRadius="21" HasShadow="False" WidthRequest="314" HeightRequest="179" Margin="-15, -15, -15, -15">
@@ -74,17 +74,43 @@
                         </StackLayout>
                     </Frame>
                 </Frame>
+                <Label HeightRequest="40"></Label>
             </StackLayout>
         </ScrollView>
-        
-        
-        
-        <StackLayout Grid.Row="2" BackgroundColor="white">
-            <Image Margin="29,5,0,0" Source="Group1.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
-            <Image Margin="109,-46,0,0" Source="Group2.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
-            <Image Margin="189,-46,0,0" Source="Group3.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
-            <Image Margin="269,-46,0,0" Source="Group4.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
-            <Image Margin="349,-46,0,0" Source="Group5.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+
+
+
+        <StackLayout Grid.Row="2" BackgroundColor="white" Opacity="0.9">
+            <StackLayout Margin="25,5,345,0" Opacity="1.0">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Special" Tapped="Special_Tapped"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Group1.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            </StackLayout>
+            <StackLayout Margin="100,-46,260,0" Opacity="1.0">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Serch" Tapped="Serch_Tapped"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Group2.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            </StackLayout>
+            <StackLayout Margin="180,-46,193,0" Opacity="1.0">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Home" Tapped="Home_Tapped"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Group3.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            </StackLayout>
+            <StackLayout Margin="260,-46,111,0" Opacity="1.0">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Filial" Tapped="Filial_Tapped"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Group4.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            </StackLayout>
+            <StackLayout Margin="340,-46,31,0" Opacity="1.0">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Help" Tapped="Help_Tapped"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Group5.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+            </StackLayout>
         </StackLayout>
     </Grid>
 </ContentPage>

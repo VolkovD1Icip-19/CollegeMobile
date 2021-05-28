@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollegeMobile.Serch"
+             Title="Поисковая страничка"
+             BackgroundImageSource="image1.png"
+             NavigationPage.HasNavigationBar="false">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75" ></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackLayout Grid.Row="0" BackgroundColor="white">
+            <Frame Margin="20,7,20,0" BackgroundColor="black" Padding="8" CornerRadius="20">
+                <Frame Margin="-5" Padding="8" CornerRadius="17">
+                    <Label TextColor="black" Margin="0" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24">Поиск информации</Label>
+                </Frame>
+            </Frame>
+            <StackLayout Margin="30,-55,0,0">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="SpecialArrow1" Tapped="SpecialArrow1_Tapped"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Arrow1.png" WidthRequest="45" HeightRequest="45" HorizontalOptions="Start"></Image>
+            </StackLayout>
+            <StackLayout Margin="0,-50,30,0">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="SpecialArrow" Tapped="SpecialArrow_Tapped"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Arrow.png" WidthRequest="45" HeightRequest="45" HorizontalOptions="End"></Image>
+            </StackLayout>
+        </StackLayout>
+
+        
+        
+        <StackLayout Grid.Row="1">
+            <Frame Margin="20, 10,20,0" BackgroundColor="#EDEDED" Padding="8" CornerRadius="20">
+                <Frame Margin="-3" Padding="8" CornerRadius="15" HasShadow="False">
+                    <Label Text="Введите поисковой запрос" TextColor="black" HorizontalOptions="Center" FontSize="24" Margin="0,-5,0,-3"></Label>
+                </Frame>
+            </Frame>
+        </StackLayout>
+
+        
+        
+        <StackLayout Grid.Row="2" BackgroundColor="white" Opacity="0.9">
+            <Frame Margin="10, 4,70,0" BackgroundColor="#EDEDED" HasShadow="False" Padding="8" Opacity="1.0" CornerRadius="20">
+                <Frame Margin="-5" Padding="8" CornerRadius="17" HasShadow="False" Opacity="1.0">
+                    <Label Text="Поиск..." Opacity="0.5" TextColor="black" Margin="5,-3,0,-4" HorizontalOptions="Start" VerticalOptions="Center" FontSize="20"></Label>
+                </Frame>
+            </Frame>
+            <Image Source="Group6.png" Margin="0,-47,15,0" HorizontalOptions="End" WidthRequest="40" HeightRequest="40"></Image>
+        </StackLayout>
+    </Grid>
+</ContentPage>
