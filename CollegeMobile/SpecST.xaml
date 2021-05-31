@@ -46,7 +46,7 @@
                             </StackLayout>
                         </Frame>
                     </Frame>
-                    <Frame HeightRequest="102" WidthRequest="130" Margin="100,11,12.5,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HeightRequest="100" WidthRequest="130" Margin="100,11,12.5,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
                         <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="75" WidthRequest="130" Margin="-4,-4,-4,-4" >
                             <StackLayout>
                                 <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Срок обучения: "  TextColor="#000" WidthRequest="250"></Label>

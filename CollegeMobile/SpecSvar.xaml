@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CollegeMobile.SpecKamen" BackgroundImageSource="Fon.png"
+             x:Class="CollegeMobile.SpecSvar" BackgroundImageSource="Fon.png"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <Grid>
@@ -13,9 +13,9 @@
             <StackLayout Grid.Row="0" BackgroundColor="White">
                 <Frame BackgroundColor="#FFFFFF" CornerRadius="20" Margin="12.5,28,12.5,10" HeightRequest="100" BorderColor="Black" Padding="5">
                     <StackLayout>
-                        <Image Source="Kamen.png"  WidthRequest="140" HeightRequest="110" Margin="-268,-5,0,-5" ></Image>
-                        <Label FontSize="20" Margin="180,-70,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Каменщик" TextColor="#000" FontAttributes="Bold"></Label>
-                        <StackLayout Margin="330,-41,0,-5" VerticalOptions="Center">
+                        <Image Source="Svarka.png"  WidthRequest="140" HeightRequest="110" Margin="-268,-5,0,-5" ></Image>
+                        <Label FontSize="20" Margin="120,-80,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Сварочное производство" TextColor="#000" FontAttributes="Bold"></Label>
+                        <StackLayout Margin="330,-51,0,-5" VerticalOptions="Center">
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="BackSpec" Tapped="BackSpec_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
@@ -28,44 +28,51 @@
                 <StackLayout   Margin="0,-11,0,0" WidthRequest="130">
                     <Frame HeightRequest="50" WidthRequest="130" Margin="12.5,30,100,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
                         <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
-                            <Label FontAttributes="Bold" FontSize="16" Margin="25,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Уровень образования: выпускники ОСШ 8 вида." TextColor="#000"  WidthRequest="230"></Label>
+                            <Label FontAttributes="Bold" FontSize="16" Margin="25,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Уровень образования: среднее профессиональное" TextColor="#000"  WidthRequest="230"></Label>
+                            
                         </Frame>
                     </Frame>
                     <Frame HeightRequest="40" WidthRequest="130" Margin="100,11,12.5,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
                         <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="75" WidthRequest="130" Margin="-4,-4,-4,-4" >
                             <StackLayout>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="52,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Квалификация: каменщик"  TextColor="#000" WidthRequest="200"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Квалификация: "  TextColor="#000" WidthRequest="250"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="0,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="техник" TextColor="#000" WidthRequest="300"></Label>
                             </StackLayout>
                         </Frame>
                     </Frame>
-                    <Frame HeightRequest="100" WidthRequest="130" Margin="12.5,11,100,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HeightRequest="40" WidthRequest="130" Margin="12.5,11,100,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
                         <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="45" WidthRequest="130" Margin="-4,-4,-4,-4" >
                             <StackLayout>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="70,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Форма обучения: "  TextColor="#000" WidthRequest="150"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="0,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="очная для граждан с ограниченными возможностями по программе профессиональной подготовки по профессиям рабочих." TextColor="#000" WidthRequest="340"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="70,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Форма обучения: очная"  TextColor="#000" WidthRequest="150"></Label>
                             </StackLayout>
                         </Frame>
                     </Frame>
-                    <Frame HeightRequest="50" WidthRequest="130" Margin="100,11,12.5,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HeightRequest="100" WidthRequest="130" Margin="100,11,12.5,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
                         <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="75" WidthRequest="130" Margin="-4,-4,-4,-4" >
                             <StackLayout>
                                 <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Срок обучения: "  TextColor="#000" WidthRequest="250"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="на базе 9 классов 1 год 10 месяцев"  TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• на базе основного общего"  TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,-10,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="образования 3 года 10 месяцев." TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,-10,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• на базе среднего общего" TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,-10,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" образования 2 года 10 месяцев."   TextColor="#000" WidthRequest="300"></Label>
                             </StackLayout>
                         </Frame>
                     </Frame>
-                    <Frame HeightRequest="220" WidthRequest="150" Margin="12.5,11,80,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HeightRequest="245" WidthRequest="150" Margin="12.5,11,80,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
                         <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="45" WidthRequest="150" Margin="-4,-4,-4,-4" >
                             <StackLayout>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Объекты профессиональной деятельности:"  TextColor="#000" WidthRequest="250"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• каменные здания и сооружения и" TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="их элементы;  " TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• материалы для общестроительных " TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" работ;"   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• технологии общестроительных "  TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" работ.  "   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Виды профессиональной деятельности:"  TextColor="#000" WidthRequest="250"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• выполнение каменных работ."  TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Виды профессиональной деятельности: "  TextColor="#000" WidthRequest="250"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• подготовка и осуществление " TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="технологических процессов " TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="изготовления сварных  " TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="конструкций; " TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• разработка технологических " TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" процессов и проектирование "   TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" изделий ; "   TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• контроль качества сварочных "  TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" работ;  "   TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• организация и планирование "  TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" сварочного производства; "   TextColor="#000" WidthRequest="300"></Label>
                             </StackLayout>
                         </Frame>
                     </Frame>

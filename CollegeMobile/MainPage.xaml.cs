@@ -41,5 +41,10 @@ namespace CollegeMobile
         {
             Navigation.PushAsync(new SpecKamen());
         }
+
+        private void Svar_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SpecSvar());
+        }
     }
 }
