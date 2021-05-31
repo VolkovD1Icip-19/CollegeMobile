@@ -1,24 +1,132 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CollegeMobile.MainPage">
+             x:Class="CollegeMobile.MainPage"
+             BackgroundImageSource="Fon.png"
+             NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackLayout Grid.Row="0" BackgroundColor="White">
+            <Frame Margin="20, 10,20,0" BackgroundColor="black" Padding="8" CornerRadius="20">
+                <Frame Margin="-5,-5,-5,-5" Padding="8" CornerRadius="17">
+                    <Label Text="Специальности" TextColor="black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24"></Label>
+                </Frame>
+            </Frame>
+        </StackLayout>
+        <ScrollView Grid.Row="1" Margin="0,-6,0,-60">
+            <StackLayout   Margin="0,-11,0,0">
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,35,12.5,10">
+                    <StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="ICiP" Tapped="ICiP_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                        <Image Source="ICiP.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="20" Margin="160,-103,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Информационные системы и программирование" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="ST" Tapped="ST_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                        <Image Source="ST.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="20" Margin="160,-103,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Строительство и эксплуатация зданий и сооружений" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="AT" Tapped="AT_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                        <Image Source="AT.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="20" Margin="160,-103,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Мастер по ремонту и обслуживанию автомобилей" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Kamen" Tapped="Kamen_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                        <Image Source="Kamen.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="20" Margin="220,-83,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Каменщик" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Svar" Tapped="Svar_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                        <Image Source="Svarka.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="20" Margin="170,-93,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Сварочное  производство" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <Image Source="ZIO.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="18" Margin="170,-100,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Земельно- имущественные отношения" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <Image Source="PRAVO.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="20" Margin="170,-115,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Право и организация социального обеспечения" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Eko" Tapped="Eko_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                        <Image Source="EKO.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="20" Margin="170,-94,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Экономика и бухгалтерский учет" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="#FFFFFF" Padding="0" CornerRadius="20" HeightRequest="123" WidthRequest="350" Margin="12.5,11,12.5,10">
+                    <StackLayout>
+                        <Image Source="Tokar.png"  WidthRequest="150" HeightRequest="123" Margin="-244,0,0,0" ></Image>
+                        <Label FontSize="20" Margin="170,-114,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Токарь на станках с числовым программным управлением" TextColor="#000" FontAttributes="Bold"></Label>
+                    </StackLayout>
+                </Frame>
+                <Label HeightRequest="50"></Label>
+            </StackLayout>
+        </ScrollView>
+        <StackLayout Grid.Row="2" BackgroundColor="White" Opacity="0.9">
+            <StackLayout Margin="29,5,345,0">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Back" Tapped="BackSpec_Tapped"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Group1.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
+            </StackLayout>
+            <StackLayout Margin="100,-46,260,0">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Search"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Group2.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
+            </StackLayout>
+            <StackLayout Margin="180,-46,193,0">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Home"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Group3.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
+            </StackLayout>
+            <StackLayout Margin="260,-46,111,0">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Filial"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Group4.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
+            </StackLayout>
+            <StackLayout Margin="340,-46,31,0">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Help"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Group5.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at12 "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
 
 </ContentPage>
