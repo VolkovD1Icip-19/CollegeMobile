@@ -12,6 +12,13 @@ namespace CollegeMobile
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SpecEKO : ContentPage
     {
-        
+        public SpecEKO()
+        {
+            InitializeComponent();
+        }
+        private void BackSpec_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
+        }
     }
 }
