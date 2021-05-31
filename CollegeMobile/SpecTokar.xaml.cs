@@ -10,19 +10,14 @@ using Xamarin.Forms.Xaml;
 namespace CollegeMobile
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class SpecICiP : ContentPage
+    public partial class SpecTokar : ContentPage
     {
-        public SpecICiP()
+        public SpecTokar()
         {
             InitializeComponent();
         }
 
         private void BackSpec_Tapped(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new MainPage());
-        }
-
-        private void ScrollView_Scrolled(object sender, ScrolledEventArgs e)
         {
             Navigation.PushAsync(new MainPage());
         }

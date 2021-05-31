@@ -46,5 +46,10 @@ namespace CollegeMobile
         {
             Navigation.PushAsync(new SpecSvar());
         }
+
+        private void Tokar_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SpecTokar());
+        }
     }
 }
