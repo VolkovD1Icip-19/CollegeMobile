@@ -19,7 +19,7 @@ namespace CollegeMobile
 
         private void SpecialArrow1_Tapped(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Filials());
         }
     }
 }
