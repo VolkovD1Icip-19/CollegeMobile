@@ -32,7 +32,7 @@ namespace CollegeMobile
 
         private void Help_Tapped(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new Help());
         }
 
         private void Special_Tapped(object sender, EventArgs e)
