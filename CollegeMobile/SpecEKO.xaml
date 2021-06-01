@@ -57,29 +57,14 @@
                             </StackLayout>
                         </Frame>
                     </Frame>
-                    <Frame HeightRequest="390" WidthRequest="150" Margin="12.5,11,80,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HeightRequest="420" WidthRequest="150" Margin="12.5,11,80,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
                         <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="45" WidthRequest="150" Margin="-4,-4,-4,-4" >
                             <StackLayout>
                                 <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Виды профессиональной деятельности: "  TextColor="#000" WidthRequest="250"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• осуществление" TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="строительно-монтажных работ в" TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="соответствии с проектом, " TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="рабочими чертежами. " TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• организация работы коллектива," TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" исполнителей (участка, бригады), "   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" планирование и организация "   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" строительно-монтажных работ,"   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" обеспечение техники безопасности"   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" на строительстве."   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• осуществление мироприятий по"  TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" технической эксплуатации  "   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" конструкций и инженерного  "   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" оборудования зданий и "   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" сооружений. Проведение осмотров"   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" и контроль эксплуатационной "   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" пригодности и диагностики  "   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" повреждений зданий и  "   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" сооружений"   TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• ведение бухгалтерского учета имущества, обязательств и  хозяйственный операций;" TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• учет поступающих денежных средств, учет издержек производства и обращения, составление смет расходов, реализация, составление отчетных калькуляций себестоимости готовой продукции, участие в разработке мероприятий по эффективному использованию внутрихозяйственных резервов;" TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• проведение ревизий финансово-хозяйственной организации, разработка мер, направленных на повышение эффективности  использования финансовых средств; оформление бухгалтерских документов."  TextColor="#000" WidthRequest="300"></Label>
+                                
                             </StackLayout>
                         </Frame>
                     </Frame>
