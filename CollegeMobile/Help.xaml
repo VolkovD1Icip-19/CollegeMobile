@@ -31,7 +31,7 @@
         <StackLayout Grid.Row="1">
             <Frame Margin="15, 10,75,5" BackgroundColor="#EDEDED" VerticalOptions="EndAndExpand" Padding="8" CornerRadius="20">
                 <Frame Margin="-3" Padding="8" CornerRadius="15" HasShadow="False">
-                    <Label Text="Вас приветствует техническая поддержка, если у вас появились вопросы пишите их сюда. Вам ответят в течении 10 минут." TextColor="black" HorizontalOptions="Center" FontSize="18" Margin="0,-5,0,-3"></Label>
+                    <Label Text="Вас приветствует техническая поддержка, если у вас появились вопросы пишите их сюда. Вам ответят в течении 10 минут." TextColor="black" HorizontalOptions="Center" FontSize="15" Margin="0,-5,0,-3"></Label>
                 </Frame>
             </Frame>
         </StackLayout>

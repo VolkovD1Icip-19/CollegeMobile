@@ -17,17 +17,17 @@
                     <Label TextColor="black" Margin="0" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24">Поиск информации</Label>
                 </Frame>
             </Frame>
-            <StackLayout Margin="30,-55,335,0">
+            <StackLayout Margin="25,-55,290,0">
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer x:Name="SpecialArrow1" Tapped="SpecialArrow1_Tapped"></TapGestureRecognizer>
                 </StackLayout.GestureRecognizers>
-                <Image Source="Arrow1.png" WidthRequest="45" HeightRequest="45" HorizontalOptions="Start"></Image>
+                <Image Source="Arrow1.png" HorizontalOptions="Start" WidthRequest="45" HeightRequest="45"></Image>
             </StackLayout>
-            <StackLayout Margin="335,-50,30,0">
+            <StackLayout Margin="290,-50,25,0">
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer x:Name="SpecialArrow" Tapped="SpecialArrow_Tapped"></TapGestureRecognizer>
                 </StackLayout.GestureRecognizers>
-                <Image Source="Arrow.png" WidthRequest="45" HeightRequest="45" HorizontalOptions="End"></Image>
+                <Image Source="Arrow.png" HorizontalOptions="End" WidthRequest="45" HeightRequest="45"></Image>
             </StackLayout>
         </StackLayout>
 
@@ -36,7 +36,7 @@
         <StackLayout Grid.Row="1">
             <Frame Margin="20, 10,20,0" BackgroundColor="#EDEDED" Padding="8" CornerRadius="20">
                 <Frame Margin="-3" Padding="8" CornerRadius="15" HasShadow="False">
-                    <Label Text="Введите поисковой запрос" TextColor="black" HorizontalOptions="Center" FontSize="24" Margin="0,-5,0,-3"></Label>
+                    <Label Text="Введите поисковой запрос" TextColor="black" HorizontalOptions="Center" FontSize="22" Margin="0,-5,0,-3"></Label>
                 </Frame>
             </Frame>
         </StackLayout>

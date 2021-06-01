@@ -20,6 +20,26 @@ namespace CollegeMobile
         {
             Navigation.PushAsync(new Special());
         }
+
+        private void Search_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Serch());
+        }
+
+        private void Home_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
+        }
+
+        private void Filial_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Filials());
+        }
+
+        private void Help_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Help());
+        }
     }
 
 }

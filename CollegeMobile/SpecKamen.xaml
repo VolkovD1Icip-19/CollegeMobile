@@ -6,22 +6,24 @@
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="130"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="50"></RowDefinition>
             </Grid.RowDefinitions>
             <StackLayout Grid.Row="0" BackgroundColor="White">
-                <Frame BackgroundColor="#FFFFFF" CornerRadius="20" Margin="12.5,28,12.5,10" HeightRequest="100" BorderColor="Black" Padding="5">
-                    <StackLayout>
-                        <Image Source="Kamen.png"  WidthRequest="140" HeightRequest="110" Margin="-268,-5,0,-5" ></Image>
-                        <Label FontSize="20" Margin="180,-70,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Каменщик" TextColor="#000" FontAttributes="Bold"></Label>
-                        <StackLayout Margin="330,-41,0,-5" VerticalOptions="Center">
-                            <StackLayout.GestureRecognizers>
-                                <TapGestureRecognizer x:Name="BackSpec" Tapped="BackSpec_Tapped"></TapGestureRecognizer>
-                            </StackLayout.GestureRecognizers>
-                            <Image Source="Arrow.png"  WidthRequest="45" HeightRequest="45" ></Image>
+                <Frame BackgroundColor="black" CornerRadius="23" Margin="12.5,8,12.5,10" Padding="5">
+                    <Frame CornerRadius="20" Margin="-2" HasShadow="False">
+                        <StackLayout HeightRequest="67">
+                            <Image Source="Kamen.png" WidthRequest="125" Margin="-20,-20,0,0" HorizontalOptions="Start"></Image>
+                            <Label FontSize="18" Margin="110,-75,25,0" HorizontalTextAlignment="Center" Text="Каменщик" TextColor="#000" FontAttributes="Bold"></Label>
+                            <StackLayout Margin="0,-40,-15,0" HorizontalOptions="End">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer x:Name="BackSpec" Tapped="BackSpec_Tapped"></TapGestureRecognizer>
+                                </StackLayout.GestureRecognizers>
+                                <Image Source="Arrow.png"  WidthRequest="45" HeightRequest="45" ></Image>
+                            </StackLayout>
                         </StackLayout>
-                    </StackLayout>
+                    </Frame>
                 </Frame>
             </StackLayout>
             <ScrollView Grid.Row="1" Margin="0,-6,0,-60">
@@ -79,36 +81,41 @@
                     <Label HeightRequest="70"></Label>
                 </StackLayout>
             </ScrollView>
-            <StackLayout Grid.Row="2" BackgroundColor="White" Opacity="0.9">
-                <StackLayout Margin="29,5,345,0">
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="Back" Tapped="BackSpec_Tapped"></TapGestureRecognizer>
-                    </StackLayout.GestureRecognizers>
-                    <Image Source="Group1.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
-                </StackLayout>
-                <StackLayout Margin="100,-46,260,0">
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="Search" Tapped="Search_Tapped"></TapGestureRecognizer>
-                    </StackLayout.GestureRecognizers>
-                    <Image Source="Group2.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
-                </StackLayout>
-                <StackLayout Margin="180,-46,193,0">
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="Home" Tapped="Home_Tapped"></TapGestureRecognizer>
-                    </StackLayout.GestureRecognizers>
-                    <Image Source="Group3.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
-                </StackLayout>
-                <StackLayout Margin="260,-46,111,0">
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="Filial" Tapped="Filial_Tapped"></TapGestureRecognizer>
-                    </StackLayout.GestureRecognizers>
-                    <Image Source="Group4.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
-                </StackLayout>
-                <StackLayout Margin="340,-46,31,0">
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer x:Name="Help" Tapped="Help_Tapped"></TapGestureRecognizer>
-                    </StackLayout.GestureRecognizers>
-                    <Image Source="Group5.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
+            
+            
+            
+            <StackLayout Grid.Row="2" BackgroundColor="white" HorizontalOptions="Center" WidthRequest="450" Opacity="0.9">
+                <StackLayout HorizontalOptions="Center">
+                    <StackLayout Margin="0,6,0,0" Opacity="1.0">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="BackSpec1" Tapped="BackSpec_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                        <Image Source="Group1.png" HorizontalOptions="Start"></Image>
+                    </StackLayout>
+                    <StackLayout Margin="70,-46,0,0" Opacity="1.0">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Serch" Tapped="Search_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                        <Image Source="Group2.png" HorizontalOptions="Start"></Image>
+                    </StackLayout>
+                    <StackLayout Margin="140,-46,0,0" Opacity="1.0">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Home" Tapped="Home_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                        <Image Source="Group3.png" HorizontalOptions="Start"></Image>
+                    </StackLayout>
+                    <StackLayout Margin="210,-43,0,0" Opacity="1.0">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Filial" Tapped="Filial_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                        <Image Source="Group4.png" HorizontalOptions="Start"></Image>
+                    </StackLayout>
+                    <StackLayout Margin="280,-46,0,0" Opacity="1.0">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer x:Name="Help" Tapped="Help_Tapped"></TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
+                        <Image Source="Group5.png" HorizontalOptions="Start"></Image>
+                    </StackLayout>
                 </StackLayout>
             </StackLayout>
         </Grid>

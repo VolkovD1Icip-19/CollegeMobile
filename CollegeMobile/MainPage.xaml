@@ -24,7 +24,7 @@
         
         <ScrollView Grid.Row="1" Margin="0,-6,0,-60">
             <StackLayout>
-                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" HeightRequest="179" Margin="30, 5, 30, 15">
+                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314"  Margin="30, 5, 30, 15">
                     <Frame CornerRadius="21" HasShadow="False" WidthRequest="314" HeightRequest="179" Margin="-15, -15, -15, -15">
                         <StackLayout Margin="-10">
                             <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Появилась новая профессия “Токарь”</Label>
@@ -34,8 +34,8 @@
                         </StackLayout>
                     </Frame>
                 </Frame>
-                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" HeightRequest="200" Margin="30, 5, 30, 15">
-                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314" HeightRequest="179" Margin="-15, -15, -15, -15">
+                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" Margin="30, 5, 30, 15">
+                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314"  Margin="-15, -15, -15, -15">
                         <StackLayout Margin="-10">
                             <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Добавление преподавателей в ИСИП</Label>
                             <Image Source="image3.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
@@ -44,8 +44,8 @@
                         </StackLayout>
                     </Frame>
                 </Frame>
-                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" HeightRequest="179" Margin="30, 5, 30, 15">
-                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314" HeightRequest="179" Margin="-15, -15, -15, -15">
+                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" Margin="30, 5, 30, 15">
+                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314"  Margin="-15, -15, -15, -15">
                         <StackLayout Margin="-10">
                             <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Подготовка к новому областному чемпионату</Label>
                             <Image Source="image4.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
@@ -54,8 +54,8 @@
                         </StackLayout>
                     </Frame>
                 </Frame>
-                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" HeightRequest="179" Margin="30, 5, 30, 15">
-                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314" HeightRequest="179" Margin="-15, -15, -15, -15">
+                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314"  Margin="30, 5, 30, 15">
+                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314"  Margin="-15, -15, -15, -15">
                         <StackLayout Margin="-10">
                             <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Закуп нового учебного оборудования</Label>
                             <Image Source="image5.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
@@ -64,8 +64,8 @@
                         </StackLayout>
                     </Frame>
                 </Frame>
-                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314" HeightRequest="154" Margin="30, 5, 30, 15">
-                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314" HeightRequest="179" Margin="-15, -15, -15, -15">
+                <Frame CornerRadius="25" BackgroundColor="#EDEDED" WidthRequest="314"  Margin="30, 5, 30, 15">
+                    <Frame CornerRadius="21" HasShadow="False" WidthRequest="314"  Margin="-15, -15, -15, -15">
                         <StackLayout Margin="-10">
                             <Label FontSize="24" TextColor="Black" FontAttributes="Bold" Margin="10,0,0,0">Организация конкурса</Label>
                             <Image Source="image6.png" HorizontalOptions="Start" WidthRequest="110" HeightRequest="110"></Image>
@@ -80,36 +80,38 @@
 
 
 
-        <StackLayout Grid.Row="2" BackgroundColor="white" Opacity="0.9">
-            <StackLayout Margin="25,5,345,0" Opacity="1.0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Special" Tapped="Special_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group1.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
-            </StackLayout>
-            <StackLayout Margin="100,-46,260,0" Opacity="1.0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Serch" Tapped="Serch_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group2.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
-            </StackLayout>
-            <StackLayout Margin="180,-46,193,0" Opacity="1.0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Home" Tapped="Home_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group3.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
-            </StackLayout>
-            <StackLayout Margin="260,-46,111,0" Opacity="1.0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Filial" Tapped="Filial_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group4.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
-            </StackLayout>
-            <StackLayout Margin="340,-46,31,0" Opacity="1.0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Help" Tapped="Help_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group5.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+        <StackLayout Grid.Row="2" BackgroundColor="white" HorizontalOptions="Center" WidthRequest="450" Opacity="0.9">
+            <StackLayout HorizontalOptions="Center">
+                <StackLayout Margin="0,6,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Special" Tapped="Special_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group1.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
+                <StackLayout Margin="70,-46,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Serch" Tapped="Serch_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group2.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
+                <StackLayout Margin="140,-46,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Home" Tapped="Home_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group3.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
+                <StackLayout Margin="210,-43,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Filial" Tapped="Filial_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group4.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
+                <StackLayout Margin="280,-46,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Help" Tapped="Help_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group5.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
             </StackLayout>
         </StackLayout>
     </Grid>

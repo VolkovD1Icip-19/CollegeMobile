@@ -25,77 +25,82 @@
         <ScrollView Grid.Row="1" Margin="0,-6,0,-60">
             <StackLayout>
                 <Frame Margin="20,20,20,0" CornerRadius="22" BackgroundColor="#EDEDED">
-                    <Frame CornerRadius="20" HeightRequest="160" Margin="-15" HasShadow="False">
+                    <Frame CornerRadius="20" Margin="-15" HasShadow="False">
                         <StackLayout>
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="Plast" Tapped="Plast_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
-                            <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Margin="130,0,0,0">Пластовский технологический филиал</Label>
-                            <Image Source="f1.png" WidthRequest="120" HeightRequest="90" Margin="-200,-90,20,20"></Image>
-                            <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="0,0,80,0">Адрес: г.Пласт, ул.Володарского, 2</Label>
-                            <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="0,0,4,0">Телефон: +7 (35160) 2-04-67</Label>
+                            <Label FontSize="20" TextColor="Black" FontAttributes="Bold" Margin="125,0,-10,0">Пластовский технологический филиал</Label>
+                            <Image Source="f1.png" Margin="-150,-80,20,10"></Image>
+                            <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand">Адрес: г.Пласт, ул.Володарского, 2</Label>
+                            <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand">Телефон: +7 (35160) 2-04-67</Label>
                         </StackLayout>
                     </Frame>
                 </Frame>
                 <Frame Margin="20,20,20,0" CornerRadius="22" BackgroundColor="#EDEDED">
-                    <Frame CornerRadius="20" HeightRequest="160" Margin="-15" HasShadow="False">
+                    <Frame CornerRadius="20" Margin="-15" HasShadow="False">
                         <StackLayout>
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="Uch11" Tapped="Uch11_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
-                            <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Margin="130,0,-8,4">Профессиональное училище №11</Label>
-                            <Image Source="f2.png" WidthRequest="120" HeightRequest="90" Margin="-200,-70,20,20"></Image>
-                            <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="0,0,80,0">Адрес: Копейск, проспект Ильича, 14</Label>
-                            <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="0,0,4,0">Телефон: +7 (35139) 3-659-10</Label>
+                            <Label FontSize="20" TextColor="Black" FontAttributes="Bold" Margin="125,0,-10,0">Профессиональное училище №11</Label>
+                            <Image Source="f2.png" Margin="-150,-80,20,10"></Image>
+                            <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand">Адрес: Копейск, проспект Ильича, 14</Label>
+                            <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand">Телефон: +7 (35139) 3-659-10</Label>
                         </StackLayout>
                     </Frame>
                 </Frame>
                 <Frame Margin="20,20,20,0" CornerRadius="22" BackgroundColor="#EDEDED">
-                    <Frame CornerRadius="20" HeightRequest="160" Margin="-15" HasShadow="False">
+                    <Frame CornerRadius="20" Margin="-15" HasShadow="False">
                         <StackLayout>
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="Gor" Tapped="Gor_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
-                            <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Margin="130,-10,0,-10">ГБПОУ Копейский политехнический колледж имени С.В.Хохрякова</Label>
-                            <Image Source="f3.png" WidthRequest="120" HeightRequest="90" Margin="-200,-97,20,20"></Image>
-                            <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="0,0,80,0">Адрес: г.Копейск, улица Ленина, 40</Label>
-                            <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand" Margin="0,0,4,0">Телефон: +7 (35139) 3-63-26</Label>
+                            <Label FontSize="20" TextColor="Black" FontAttributes="Bold" Margin="125,0,-10,0">ГБПОУ Копейский политехнический колледж имени С.В.Хохрякова</Label>
+                            <Image Source="f3.png" Margin="-150,-110,20,20"></Image>
+                            <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand">Адрес: г.Копейск, улица Ленина, 40</Label>
+                            <Label HorizontalOptions="Fill" VerticalOptions="FillAndExpand">Телефон: +7 (35139) 3-63-26</Label>
                         </StackLayout>
                     </Frame>
                 </Frame>
                 <Label HeightRequest="70"></Label>
             </StackLayout>
         </ScrollView>
-        <StackLayout Grid.Row="2" BackgroundColor="white" Opacity="0.9">
-            <StackLayout Margin="25,5,345,0" Opacity="1.0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Special" Tapped="Special_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group1.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
-            </StackLayout>
-            <StackLayout Margin="100,-46,260,0" Opacity="1.0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Search" Tapped="Search_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group2.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
-            </StackLayout>
-            <StackLayout Margin="180,-46,193,0" Opacity="1.0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Home" Tapped="Home_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group3.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
-            </StackLayout>
-            <StackLayout Margin="260,-46,111,0" Opacity="1.0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Filial" Tapped="Filial_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group4.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
-            </StackLayout>
-            <StackLayout Margin="340,-46,31,0" Opacity="1.0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Help" Tapped="Help_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group5.png" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40"></Image>
+        
+        
+        
+        <StackLayout Grid.Row="2" BackgroundColor="white" HorizontalOptions="Center" WidthRequest="450" Opacity="0.9">
+            <StackLayout HorizontalOptions="Center">
+                <StackLayout Margin="0,6,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Special" Tapped="Special_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group1.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
+                <StackLayout Margin="70,-46,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Serch" Tapped="Search_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group2.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
+                <StackLayout Margin="140,-46,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Home" Tapped="Home_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group3.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
+                <StackLayout Margin="210,-43,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Filial" Tapped="Filial_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group4.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
+                <StackLayout Margin="280,-46,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Help" Tapped="Help_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group5.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
             </StackLayout>
         </StackLayout>
     </Grid>

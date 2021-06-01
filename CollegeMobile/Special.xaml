@@ -17,140 +17,148 @@
                 </Frame>
             </Frame>
         </StackLayout>
+        
+        
+        
         <ScrollView Grid.Row="1" Margin="0,-6,0,-60">
             <StackLayout   Margin="0,-11,0,0">
-                <Frame HeightRequest="110" WidthRequest="350" Margin="12.5,35,12.5,10" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                    <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
+                <Frame Margin="12.5,35,12.5,10" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HasShadow="False" Margin="-4" Padding="8" CornerRadius="21">
                         <StackLayout>
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="ICiP" Tapped="ICiP_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
-                            <Image Source="ICiP.png"  WidthRequest="160" HeightRequest="123" Margin="-250,-10,0,0" ></Image>
-                            <Label FontSize="20" Margin="160,-110,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Информационные системы и программирование" TextColor="#000" FontAttributes="Bold"></Label>
+                            <Image Source="ICiP.png" Margin="-8,-8,0,0" HorizontalOptions="Start"></Image>
+                            <Label FontSize="18" Margin="135,-105,0,24" HorizontalTextAlignment="Center" Text="Информационные системы и программирование" TextColor="#000" FontAttributes="Bold"></Label>
                         </StackLayout>
                     </Frame>
                 </Frame>
-                <Frame HeightRequest="110" WidthRequest="350" Margin="12.5,11,12.5,10" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                    <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
-                        <StackLayout>
+                <Frame Margin="12.5,11,12.5,10" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HasShadow="False" Margin="-4" Padding="8" CornerRadius="21">
+                        <StackLayout HeightRequest="101">
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="ST" Tapped="ST_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
-                            <Image Source="ST.png"  WidthRequest="160" HeightRequest="123" Margin="-250,-10,0,0" ></Image>
-                            <Label FontSize="20" Margin="160,-120,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Строительство и эксплуатация зданий и сооружений" TextColor="#000" FontAttributes="Bold"></Label>
+                            <Image Source="ST.png" Margin="-8,-8,0,0" HorizontalOptions="Start"></Image>
+                            <Label FontSize="18" Margin="145,-110,20,8" HorizontalTextAlignment="Center" Text="Строительство и эксплуатация зданий и сооружений" TextColor="#000" FontAttributes="Bold"></Label>
                         </StackLayout>
                     </Frame>
                 </Frame>
-                <Frame HeightRequest="110" WidthRequest="350" Margin="12.5,11,12.5,10" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                    <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
-                        <StackLayout>
+                <Frame Margin="12.5,11,12.5,10" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HasShadow="False" Margin="-4" Padding="8" CornerRadius="21">
+                        <StackLayout HeightRequest="101">
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="AT" Tapped="AT_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
-                            <Image Source="AT.png"  WidthRequest="160" HeightRequest="123" Margin="-250,-10,0,0" ></Image>
-                            <Label FontSize="20" Margin="160,-110,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Мастер по ремонту и обслуживанию автомобилей" TextColor="#000" FontAttributes="Bold"></Label>
+                            <Image Source="AT.png" Margin="-8,-8,0,0" HorizontalOptions="Start"></Image>
+                            <Label FontSize="18" Margin="145,-110,20,8" HorizontalTextAlignment="Center" Text="Мастер по ремонту и обслуживанию автомобилей" TextColor="#000" FontAttributes="Bold"></Label>
                         </StackLayout>
                     </Frame>
                 </Frame>
-                <Frame HeightRequest="110" WidthRequest="350" Margin="12.5,11,12.5,10" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                    <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
-                        <StackLayout>
+                <Frame Margin="12.5,11,12.5,10" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HasShadow="False" Margin="-4" Padding="8" CornerRadius="21">
+                        <StackLayout HeightRequest="101">
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="Kamen" Tapped="Kamen_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
-                            <Image Source="Kamen.png"  WidthRequest="160" HeightRequest="123" Margin="-250,-10,0,0" ></Image>
-                            <Label FontSize="20" Margin="210,-83,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Каменщик" TextColor="#000" FontAttributes="Bold"></Label>
+                            <Image Source="Kamen.png" Margin="-8,-8,0,0" HorizontalOptions="Start"></Image>
+                            <Label FontSize="18" Margin="145,-80,20,41" HorizontalTextAlignment="Center" Text="Каменщик" TextColor="#000" FontAttributes="Bold"></Label>
                         </StackLayout>
                     </Frame>
                 </Frame>
-                <Frame HeightRequest="110" WidthRequest="350" Margin="12.5,11,12.5,10" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                    <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
-                        <StackLayout>
+                <Frame Margin="12.5,11,12.5,10" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HasShadow="False" Margin="-4" Padding="8" CornerRadius="21">
+                        <StackLayout HeightRequest="101">
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="Svar" Tapped="Svar_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
-                            <Image Source="Svarka.png"  WidthRequest="160" HeightRequest="123" Margin="-250,-10,0,0" ></Image>
-                            <Label FontSize="20" Margin="170,-93,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Сварочное  производство" TextColor="#000" FontAttributes="Bold"></Label>
+                            <Image Source="Svarka.png" Margin="-8,-8,0,0" HorizontalOptions="Start"></Image>
+                            <Label FontSize="18" Margin="145,-90,20,30" HorizontalTextAlignment="Center" Text="Сварочное  производство" TextColor="#000" FontAttributes="Bold"></Label>
                         </StackLayout>
                     </Frame>
                 </Frame>
-                <Frame HeightRequest="110" WidthRequest="350" Margin="12.5,11,12.5,10" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                    <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
-                        <StackLayout>
+                <Frame Margin="12.5,11,12.5,10" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HasShadow="False" Margin="-4" Padding="8" CornerRadius="21">
+                        <StackLayout HeightRequest="101">
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="Zio" Tapped="Zio_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
-                            <Image Source="ZIO.png"  WidthRequest="160" HeightRequest="123" Margin="-250,-10,0,0" ></Image>
-                            <Label FontSize="20" Margin="170,-110,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Земельно- имущественные отношения" TextColor="#000" FontAttributes="Bold"></Label>
+                            <Image Source="ZIO.png" Margin="-8,-8,0,0" HorizontalOptions="Start"></Image>
+                            <Label FontSize="18" Margin="145,-100,20,19" HorizontalTextAlignment="Center" Text="Земельно- имущественные отношения" TextColor="#000" FontAttributes="Bold"></Label>
                         </StackLayout>
                     </Frame>
                 </Frame>
-                <Frame HeightRequest="110" WidthRequest="350" Margin="12.5,11,12.5,10" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                    <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
-                        <StackLayout>
+                <Frame Margin="12.5,11,12.5,10" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HasShadow="False" Margin="-4" Padding="8" CornerRadius="21">
+                        <StackLayout HeightRequest="101">
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="Pravo" Tapped="Pravo_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
-                            <Image Source="PRAVO.png"  WidthRequest="160" HeightRequest="123" Margin="-250,-10,0,0" ></Image>
-                            <Label FontSize="20" Margin="170,-120,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Право и организация социального обеспечения" TextColor="#000" FontAttributes="Bold"></Label>
+                            <Image Source="PRAVO.png" Margin="-8,-8,0,0" HorizontalOptions="Start"></Image>
+                            <Label FontSize="18" Margin="135,-110,5,8" HorizontalTextAlignment="Center" Text="Право и организация социального обеспечения" TextColor="#000" FontAttributes="Bold"></Label>
                         </StackLayout>
                     </Frame>
                 </Frame>
-                <Frame HeightRequest="110" WidthRequest="350" Margin="12.5,11,12.5,10" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                    <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
-                        <StackLayout>
+                <Frame Margin="12.5,11,12.5,10" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HasShadow="False" Margin="-4" Padding="8" CornerRadius="21">
+                        <StackLayout HeightRequest="101">
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="Eko" Tapped="Eko_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
-                            <Image Source="EKO.png"  WidthRequest="160" HeightRequest="123" Margin="-250,-10,0,0" ></Image>
-                            <Label FontSize="20" Margin="160,-100,10,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Экономика и бухгалтерский учет" TextColor="#000" FontAttributes="Bold"></Label>
+                            <Image Source="EKO.png" Margin="-8,-8,0,0" HorizontalOptions="Start"></Image>
+                            <Label FontSize="18" Margin="145,-100,20,19" HorizontalTextAlignment="Center" Text="Экономика и бухгалтерский учет" TextColor="#000" FontAttributes="Bold"></Label>
                         </StackLayout>
                     </Frame>
                 </Frame>
-                <Frame HeightRequest="110" WidthRequest="350" Margin="12.5,11,12.5,10" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                    <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
-                        <StackLayout>
+                <Frame Margin="12.5,11,12.5,10" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                    <Frame HasShadow="False" Margin="-4" Padding="8" CornerRadius="21">
+                        <StackLayout HeightRequest="101">
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer x:Name="Tokar" Tapped="Tokar_Tapped"></TapGestureRecognizer>
                             </StackLayout.GestureRecognizers>
-                            <Image Source="Tokar.png"  WidthRequest="160" HeightRequest="123" Margin="-250,-10,0,0" ></Image>
-                            <Label FontSize="20" Margin="170,-120,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Токарь на станках с числовым программным управлением" TextColor="#000" FontAttributes="Bold"></Label>
+                            <Image Source="Tokar.png" Margin="-8,-8,0,0" HorizontalOptions="Start"></Image>
+                            <Label FontSize="18" Margin="145,-120,20,-4" HorizontalTextAlignment="Center" Text="Токарь на станках с числовым программным управлением" TextColor="#000" FontAttributes="Bold"></Label>
                         </StackLayout>
                     </Frame>
                 </Frame>
                 <Label HeightRequest="50"></Label>
             </StackLayout>
         </ScrollView>
-        <StackLayout Grid.Row="2" BackgroundColor="White" Opacity="0.9">
-            <StackLayout Margin="29,5,345,0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Back" Tapped="BackSpec_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group1.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
-            </StackLayout>
-            <StackLayout Margin="100,-46,260,0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Search" Tapped="Search_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group2.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
-            </StackLayout>
-            <StackLayout Margin="180,-46,193,0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Home" Tapped="Home_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group3.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
-            </StackLayout>
-            <StackLayout Margin="260,-46,111,0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Filial" Tapped="Filial_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group4.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
-            </StackLayout>
-            <StackLayout Margin="340,-46,31,0">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="Help" Tapped="Help_Tapped"></TapGestureRecognizer>
-                </StackLayout.GestureRecognizers>
-                <Image Source="Group5.png" HeightRequest="40" HorizontalOptions="Start" ></Image>
+        
+        
+        
+        <StackLayout Grid.Row="2" BackgroundColor="white" HorizontalOptions="Center" WidthRequest="450" Opacity="0.9">
+            <StackLayout HorizontalOptions="Center">
+                <StackLayout Margin="0,6,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="BackSpec" Tapped="BackSpec_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group1.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
+                <StackLayout Margin="70,-46,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Serch" Tapped="Search_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group2.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
+                <StackLayout Margin="140,-46,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Home" Tapped="Home_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group3.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
+                <StackLayout Margin="210,-43,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Filial" Tapped="Filial_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group4.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
+                <StackLayout Margin="280,-46,0,0" Opacity="1.0">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="Help" Tapped="Help_Tapped"></TapGestureRecognizer>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="Group5.png" HorizontalOptions="Start"></Image>
+                </StackLayout>
             </StackLayout>
         </StackLayout>
     </Grid>
