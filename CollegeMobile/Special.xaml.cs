@@ -71,5 +71,20 @@ namespace CollegeMobile
         {
             Navigation.PushAsync(new Help());
         }
+
+        private void Zio_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Zemlya());
+        }
+
+        private void Pravo_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Pravo());
+        }
+
+        private void Eko_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SpecEKO());
+        }
     }
 }

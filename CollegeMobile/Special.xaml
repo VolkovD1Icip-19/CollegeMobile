@@ -77,6 +77,9 @@
                 <Frame HeightRequest="110" WidthRequest="350" Margin="12.5,11,12.5,10" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
                     <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
                         <StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="Zio" Tapped="Zio_Tapped"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
                             <Image Source="ZIO.png"  WidthRequest="160" HeightRequest="123" Margin="-250,-10,0,0" ></Image>
                             <Label FontSize="20" Margin="170,-110,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Земельно- имущественные отношения" TextColor="#000" FontAttributes="Bold"></Label>
                         </StackLayout>
@@ -85,6 +88,9 @@
                 <Frame HeightRequest="110" WidthRequest="350" Margin="12.5,11,12.5,10" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
                     <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
                         <StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="Pravo" Tapped="Pravo_Tapped"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
                             <Image Source="PRAVO.png"  WidthRequest="160" HeightRequest="123" Margin="-250,-10,0,0" ></Image>
                             <Label FontSize="20" Margin="170,-120,20,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Право и организация социального обеспечения" TextColor="#000" FontAttributes="Bold"></Label>
                         </StackLayout>
@@ -93,6 +99,9 @@
                 <Frame HeightRequest="110" WidthRequest="350" Margin="12.5,11,12.5,10" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
                     <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
                         <StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="Eko" Tapped="Eko_Tapped"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
                             <Image Source="EKO.png"  WidthRequest="160" HeightRequest="123" Margin="-250,-10,0,0" ></Image>
                             <Label FontSize="20" Margin="160,-100,10,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Экономика и бухгалтерский учет" TextColor="#000" FontAttributes="Bold"></Label>
                         </StackLayout>
