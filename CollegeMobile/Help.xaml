@@ -10,7 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="75" ></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="70" ></RowDefinition>
         </Grid.RowDefinitions>
         <StackLayout Grid.Row="0" BackgroundColor="white">
             <Frame Margin="20,7,20,0" BackgroundColor="black" Padding="8" CornerRadius="20">
@@ -38,13 +38,18 @@
 
 
 
-        <StackLayout Grid.Row="2" BackgroundColor="white" Opacity="0.9">
-            <Frame Margin="10, 4,70,0" BackgroundColor="#EDEDED" HasShadow="False" Padding="8" Opacity="1.0" CornerRadius="20">
+        <StackLayout Grid.Row="2" BackgroundColor="white" Opacity="0.9" HeightRequest="70" Orientation="Horizontal">
+            <Frame Margin="10, 4,0,5" BackgroundColor="#EDEDED" HasShadow="False" Padding="8" Opacity="1.0" CornerRadius="20">
                 <Frame Margin="-5" Padding="8" CornerRadius="17" HasShadow="False" Opacity="1.0">
-                    <Label Text="Текст..." Opacity="0.5" TextColor="black" Margin="5,-3,0,-4" HorizontalOptions="Start" VerticalOptions="Center" FontSize="20"></Label>
+                    <Editor Placeholder="Текст ..." x:Name="Helped" WidthRequest="270"></Editor>
                 </Frame>
             </Frame>
-            <Image Source="Group6.png" Margin="0,-47,15,0" HorizontalOptions="End" WidthRequest="40" HeightRequest="40"></Image>
+            <StackLayout Margin="5,15,0,0" >
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="Enter" Tapped="Enter_Tapped"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="Group6.png" HorizontalOptions="End" WidthRequest="40" HeightRequest="40" ></Image>
+            </StackLayout>
         </StackLayout>
     </Grid>
 </ContentPage>

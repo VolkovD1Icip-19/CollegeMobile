@@ -27,94 +27,105 @@
                 </Frame>
             </StackLayout>
             <ScrollView Grid.Row="1" Margin="0,-6,0,-60">
-                <StackLayout   Margin="0,-11,0,0" WidthRequest="130">
-                    <Frame HeightRequest="50" WidthRequest="130" Margin="12.5,30,100,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                        <Frame HasShadow="False" Margin="-4,-4,-4,-4" Padding="8" CornerRadius="21">
-                            <Label FontAttributes="Bold" FontSize="16" Margin="25,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Уровень образования: выпускники ОСШ 8 вида." TextColor="#000"  WidthRequest="230"></Label>
+                <StackLayout Margin="0,-11,0,0">
+                    <Frame Margin="12.5,30,100,0" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" Margin="-4" Padding="8" CornerRadius="21">
+                            <Label FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" Text="Уровень образования: выпускники ОСШ 8 вида." TextColor="#000"></Label>
                         </Frame>
                     </Frame>
-                    <Frame HeightRequest="40" WidthRequest="130" Margin="100,11,12.5,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                        <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="75" WidthRequest="130" Margin="-4,-4,-4,-4" >
+                    <Frame Margin="100,11,12.5,0" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" Padding="8" CornerRadius="21" Margin="-4" >
                             <StackLayout>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="52,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Квалификация: каменщик"  TextColor="#000" WidthRequest="200"></Label>
+                                <Label FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" Text="Квалификация: каменщик"  TextColor="#000"></Label>
                             </StackLayout>
                         </Frame>
                     </Frame>
-                    <Frame HeightRequest="100" WidthRequest="130" Margin="12.5,11,100,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                        <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="45" WidthRequest="130" Margin="-4,-4,-4,-4" >
+                    <Frame Margin="12.5,11,100,0" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" Padding="8" CornerRadius="21" Margin="-4" >
                             <StackLayout>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="70,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Форма обучения: "  TextColor="#000" WidthRequest="150"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="0,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="очная для граждан с ограниченными возможностями по программе профессиональной подготовки по профессиям рабочих." TextColor="#000" WidthRequest="340"></Label>
+                                <Label FontAttributes="Bold" FontSize="16" Margin="0,0,0,-5" HorizontalTextAlignment="Center" Text="Форма обучения: "  TextColor="#000"></Label>
+                                <Label FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" Text="очная для граждан с ограниченными возможностями по программе профессиональной подготовки по профессиям рабочих." TextColor="#000"></Label>
                             </StackLayout>
                         </Frame>
                     </Frame>
-                    <Frame HeightRequest="50" WidthRequest="130" Margin="100,11,12.5,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                        <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="75" WidthRequest="130" Margin="-4,-4,-4,-4" >
+                    <Frame Margin="100,11,12.5,0" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" Padding="8" CornerRadius="21" Margin="-4" >
                             <StackLayout>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Срок обучения: "  TextColor="#000" WidthRequest="250"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="на базе 9 классов 1 год 10 месяцев"  TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="0,0,0,-5" HorizontalTextAlignment="Center" Text="Срок обучения: "  TextColor="#000"></Label>
+                                <Label FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Start" Text="на базе 9 классов 1 год 10 месяцев"  TextColor="#000"></Label>
                             </StackLayout>
                         </Frame>
                     </Frame>
-                    <Frame HeightRequest="220" WidthRequest="150" Margin="12.5,11,80,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                        <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="45" WidthRequest="150" Margin="-4,-4,-4,-4" >
+                    <Frame Margin="12.5,11,80,0" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" Padding="8" CornerRadius="21" Margin="-4" >
                             <StackLayout>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Объекты профессиональной деятельности:"  TextColor="#000" WidthRequest="250"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• каменные здания и сооружения и" TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="их элементы;  " TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• материалы для общестроительных " TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" работ;"   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• технологии общестроительных "  TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="15,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text=" работ.  "   TextColor="#000" WidthRequest="300"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="25,5,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Виды профессиональной деятельности:"  TextColor="#000" WidthRequest="250"></Label>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-10" HorizontalOptions="Start" HorizontalTextAlignment="Start" Text="• выполнение каменных работ."  TextColor="#000" WidthRequest="300"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="0,0,0,-5" HorizontalTextAlignment="Center" Text="Объекты профессиональной деятельности: "  TextColor="#000"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-8" HorizontalTextAlignment="Start" Text="• " TextColor="#000"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,-20,0,-8" HorizontalTextAlignment="Start" Text="каменные здания и сооружения и их элементы." TextColor="#000"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-8" HorizontalTextAlignment="Start" Text="• " TextColor="#000"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,-21,0,-8" HorizontalTextAlignment="Start" Text="материалы для общестроительных работ." TextColor="#000"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-8" HorizontalTextAlignment="Start" Text="• " TextColor="#000"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,-22,0,0" HorizontalTextAlignment="Start" Text="технологии общестроительных работ." TextColor="#000"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,0,0,-5" HorizontalTextAlignment="Start" Text="Виды профессиональной деятельности:" TextColor="#000"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="10,0,0,-8" HorizontalTextAlignment="Start" Text="• " TextColor="#000"></Label>
+                                <Label FontAttributes="Bold" FontSize="16"  Margin="20,-22,0,0" HorizontalTextAlignment="Start" Text="выполнение каменных работ." TextColor="#000"></Label>
                             </StackLayout>
                         </Frame>
                     </Frame>
-                    <Frame HeightRequest="60" WidthRequest="130" Margin="100,11,12.5,0" BorderColor="#EDEDED" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
-                        <Frame HasShadow="False" BackgroundColor="#FFFFFF" Padding="0" CornerRadius="21" HeightRequest="45" WidthRequest="130" Margin="-4,-4,-4,-4" >
+                    <Frame Margin="100,11,12.5,0" BackgroundColor="#EDEDED" Padding="8" CornerRadius="25">
+                        <Frame HasShadow="False" Padding="8" CornerRadius="21" Margin="-4" >
                             <StackLayout>
-                                <Label FontAttributes="Bold" FontSize="16"  Margin="18,13,0,0" HorizontalOptions="Start" HorizontalTextAlignment="Center" Text="Запись на поток осуществляется до 28 августа текущего года."  TextColor="#000" WidthRequest="260"></Label>
+                                <Label FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" Text="Запись на поток осуществляется до 28 августа текущего года."  TextColor="#000"></Label>
                             </StackLayout>
                         </Frame>
                     </Frame>
                     <Label HeightRequest="70"></Label>
                 </StackLayout>
             </ScrollView>
-            
-            
-            
+
+
+
             <StackLayout Grid.Row="2" BackgroundColor="white" HorizontalOptions="Center" WidthRequest="450" Opacity="0.9">
-                <StackLayout HorizontalOptions="Center">
-                    <StackLayout Margin="0,6,0,0" Opacity="1.0">
-                        <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer x:Name="BackSpec1" Tapped="BackSpec_Tapped"></TapGestureRecognizer>
-                        </StackLayout.GestureRecognizers>
-                        <Image Source="Group1.png" HorizontalOptions="Start"></Image>
+                <StackLayout Orientation="Horizontal" Margin="0,5,0,0">
+                    <StackLayout HorizontalOptions="StartAndExpand">
+                        <StackLayout Margin="20,0,0,0" Opacity="1.0">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="BackSpec1" Tapped="BackSpec_Tapped"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="Group1.png" HorizontalOptions="Start"></Image>
+                        </StackLayout>
                     </StackLayout>
-                    <StackLayout Margin="70,-46,0,0" Opacity="1.0">
-                        <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer x:Name="Serch" Tapped="Search_Tapped"></TapGestureRecognizer>
-                        </StackLayout.GestureRecognizers>
-                        <Image Source="Group2.png" HorizontalOptions="Start"></Image>
+                    <StackLayout HorizontalOptions="StartAndExpand">
+                        <StackLayout Opacity="1.0">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="Search" Tapped="Search_Tapped"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="Group2.png" HorizontalOptions="Start"></Image>
+                        </StackLayout>
                     </StackLayout>
-                    <StackLayout Margin="140,-46,0,0" Opacity="1.0">
-                        <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer x:Name="Home" Tapped="Home_Tapped"></TapGestureRecognizer>
-                        </StackLayout.GestureRecognizers>
-                        <Image Source="Group3.png" HorizontalOptions="Start"></Image>
+                    <StackLayout HorizontalOptions="CenterAndExpand">
+                        <StackLayout Opacity="1.0">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="Home" Tapped="Home_Tapped"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="Group3.png" HorizontalOptions="Start"></Image>
+                        </StackLayout>
                     </StackLayout>
-                    <StackLayout Margin="210,-43,0,0" Opacity="1.0">
-                        <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer x:Name="Filial" Tapped="Filial_Tapped"></TapGestureRecognizer>
-                        </StackLayout.GestureRecognizers>
-                        <Image Source="Group4.png" HorizontalOptions="Start"></Image>
+                    <StackLayout HorizontalOptions="EndAndExpand">
+                        <StackLayout Opacity="1.0">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="Filial" Tapped="Filial_Tapped"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="Group4.png" HorizontalOptions="Start"></Image>
+                        </StackLayout>
                     </StackLayout>
-                    <StackLayout Margin="280,-46,0,0" Opacity="1.0">
-                        <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer x:Name="Help" Tapped="Help_Tapped"></TapGestureRecognizer>
-                        </StackLayout.GestureRecognizers>
-                        <Image Source="Group5.png" HorizontalOptions="Start"></Image>
+                    <StackLayout HorizontalOptions="EndAndExpand">
+                        <StackLayout Margin="0,0,20,0" Opacity="1.0">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="Help" Tapped="Help_Tapped"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="Group5.png" HorizontalOptions="Start"></Image>
+                        </StackLayout>
                     </StackLayout>
                 </StackLayout>
             </StackLayout>

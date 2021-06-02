@@ -12,11 +12,13 @@ namespace CollegeMobile
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Serch : ContentPage
     {
+        
         public Serch()
         {
             InitializeComponent();
+            
         }
-
+        
         private void SpecialArrow_Tapped(object sender, EventArgs e)
         {
             Navigation.PushAsync(new MainPage());
@@ -25,6 +27,11 @@ namespace CollegeMobile
         private void SpecialArrow1_Tapped(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Special());
+        }
+
+        private void Enter_Tapped(object sender, EventArgs e)
+        {
+            Search.Text = "Поиск ...";
         }
     }
 }

@@ -21,5 +21,9 @@ namespace CollegeMobile
         {
             Navigation.PushAsync(new Filials());
         }
+        private void Enter_Tapped(object sender, EventArgs e)
+        {
+            Helped.Text = "Текст ...";
+        }
     }
 }
